@@ -1,1 +1,55 @@
-css
+	/* social */
+
+header {
+	height: 30px;
+	line-height: 70px;
+	top: 0;
+	width: 100%;
+    
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.friends{
+    font-size: 15px;
+    width: 50%;
+    height: 25px;
+    margin-top: 5%;
+    float: left;
+    background-color: rgb(172, 180, 187);
+    border:none
+}
+
+/* .friends:hover{
+    background-color: rgb(230, 115, 22);
+} */
+
+.chats{
+    font-size: 15px;
+    width: 50%;
+    height: 25px;
+    margin-top: 5%;
+    float: right;
+    background-color: rgb(172, 180, 187);
+    border:none
+}
+	/* social-addFriends */
+
+.search {
+    height: 50px;
+    background: rgb(180, 90, 90);
+    position: relative;
+}
+
+input[type=text] {
+    border: 0.2px solid #ccc;
+    padding-left: 10px;
+    position: fixed;
+    width: 93%;
+    height: 20px;
+}
